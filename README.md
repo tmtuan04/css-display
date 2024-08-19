@@ -77,3 +77,67 @@ Mở file `inline.html` bạn sẽ thấy kết quả như sau:
 ![inline.html](./images/inline.png)
 
 Các phần tử `<span>` với `display: inline;` sẽ hiển thị trên cùng một dòng, chỉ chiếm không gian theo nội dung của chúng.
+
+## 3. Inline-block
+
+- Kết hợp đặc điểm của `block`và `inline`
+- Phần tử vẫn xếp trên cùng một dòng với các phần tử `inline` khác, nhưng có thể thiết lập chiều rộng và chiều cao giống như các phần tử `block`
+- Thường dùng khi bạn muốn các phần tử có kích thước cụ thể nhưng vẫn hiển thị trên cùng một dòng.
+
+**inline-block.html:**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display | Inline-block</title>
+
+    <style>
+        .inline-block-example {
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background: #abc;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="inline-block-example">Inline-block 1</div>
+    <div class="inline-block-example">Inline-block 2</div>
+</body>
+</html>
+```
+Mở file `inline-block.html` bạn sẽ thấy kết quả như sau:
+
+![inline-block.html](./images/inline-block.png)
+
+## 3. None
+
+- Phần tử sẽ không được hiển thị trên trang và **không chiếm không gian nào**.
+
+**none.html:**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display | None</title>
+
+    <style>
+        .none-example {
+            background: #bcd;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="none-example">None ex</div>
+</body>
+</html>
+```
+Mở file `none.html` bạn sẽ thấy kết quả như sau:
+
+![none.html](./images/none.png)
