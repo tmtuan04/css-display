@@ -113,7 +113,7 @@ Mở file `inline-block.html` bạn sẽ thấy kết quả như sau:
 
 ![inline-block.html](./images/inline-block.png)
 
-## 3. None
+## 4. None
 
 - Phần tử sẽ không được hiển thị trên trang và **không chiếm không gian nào**.
 
